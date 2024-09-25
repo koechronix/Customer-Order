@@ -16,6 +16,36 @@ A simple API to manage customers and their orders, integrated with Africa's Talk
 - Documentation
 - Refer to the API docs here.
 
+# Project Structure
+Customer_Order_API/
+│
+├── app/                          # Main application directory
+│   ├── __pycache__/              # Compiled Python files (auto-generated)
+│   │   └── __init__.cpython-310.pyc  # Compiled bytecode for faster execution (auto-generated)
+│   ├── __init__.py               # Initializes the app as a Python package
+│   ├── auth.py                   # Handles authentication logic (e.g., login, token management)
+│   ├── models.py                 # Defines data models (e.g., database schemas)
+│   └── views.py                  # Contains route handlers and business logic (e.g., Flask views)
+│
+├── github/                       # GitHub-related files
+│   └── workflows/                # GitHub Actions workflows for CI/CD
+│       └── python-app.yml        # CI configuration file for Python app (tests, linting, etc.)
+│
+├── venv/                         # Virtual environment directory
+│   ├── bin/                      # Executables (e.g., python, pip)
+│   ├── include/                  # C headers for compiling packages
+│   ├── lib/                      # Installed libraries (dependencies)
+│   ├── lib64/                    # Symbolic link to lib on 64-bit systems
+│   ├── pyvenv.cfg                # Configuration file for the virtual environment
+│   └── README.md                 # Virtual environment README
+│
+├── .env                          # Environment variables (e.g., API keys, secrets)
+├── config.py                     # Configuration settings for the app (e.g., database URL, Flask settings)
+├── manage.py                     # Entry point for running the app (e.g., starting server, running scripts)
+├── README.md                     # Documentation for the project (how to run, setup instructions)
+├── requirements.txt              # List of dependencies to be installed via pip
+
+
 Installation
 To install the required dependencies, run:
  ```bash 
