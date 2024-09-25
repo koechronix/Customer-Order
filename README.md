@@ -17,6 +17,7 @@ A simple API to manage customers and their orders, integrated with Africa's Talk
 - Refer to the API docs here.
 
 # Project Structure
+```bash 
 Customer_Order_API/
 │
 ├── app/                          # Main application directory
@@ -45,6 +46,7 @@ Customer_Order_API/
 ├── README.md                     # Documentation for the project (how to run, setup instructions)
 ├── requirements.txt              # List of dependencies to be installed via pip
 
+```
 
 Installation
 To install the required dependencies, run:
