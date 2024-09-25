@@ -59,7 +59,7 @@ Initialize the application:
 1.Clone the repository:
 ```bash
 git clone https://github.com/koechronix/Customer-Order
-cd Customer_Order_API
+cd Customer-Order
 ```
 Set up environment variables:
 
@@ -146,7 +146,7 @@ sudo apt install python3-pip python3-venv postgresql postgresql-contrib
 4.Clone Your Repository:
 ```bash 
 git clone https://github.com/koechronix/Customer-Order
-cd Customer_Order_API
+cd Customer-Order
 ```
 5.Set Up a Virtual Environment:
 ```bash 
